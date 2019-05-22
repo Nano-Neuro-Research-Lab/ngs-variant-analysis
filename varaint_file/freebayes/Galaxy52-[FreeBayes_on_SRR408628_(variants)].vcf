@@ -1,0 +1,708 @@
+##fileformat=VCFv4.2
+##fileDate=20180818
+##source=freeBayes v1.1.0-46-g8d2b3a0-dirty
+##reference=/galaxy/data/hg38/sam_index/hg38.fa
+##contig=<ID=chr1,length=248956422>
+##contig=<ID=chr1_KI270706v1_random,length=175055>
+##contig=<ID=chr1_KI270707v1_random,length=32032>
+##contig=<ID=chr1_KI270708v1_random,length=127682>
+##contig=<ID=chr1_KI270709v1_random,length=66860>
+##contig=<ID=chr1_KI270710v1_random,length=40176>
+##contig=<ID=chr1_KI270711v1_random,length=42210>
+##contig=<ID=chr1_KI270712v1_random,length=176043>
+##contig=<ID=chr1_KI270713v1_random,length=40745>
+##contig=<ID=chr1_KI270714v1_random,length=41717>
+##contig=<ID=chr1_GL383518v1_alt,length=182439>
+##contig=<ID=chr1_GL383519v1_alt,length=110268>
+##contig=<ID=chr1_GL383520v2_alt,length=366580>
+##contig=<ID=chr1_KI270759v1_alt,length=425601>
+##contig=<ID=chr1_KI270760v1_alt,length=109528>
+##contig=<ID=chr1_KI270761v1_alt,length=165834>
+##contig=<ID=chr1_KI270762v1_alt,length=354444>
+##contig=<ID=chr1_KI270763v1_alt,length=911658>
+##contig=<ID=chr1_KI270764v1_alt,length=50258>
+##contig=<ID=chr1_KI270765v1_alt,length=185285>
+##contig=<ID=chr1_KI270766v1_alt,length=256271>
+##contig=<ID=chr1_KI270892v1_alt,length=162212>
+##contig=<ID=chr2,length=242193529>
+##contig=<ID=chr2_KI270715v1_random,length=161471>
+##contig=<ID=chr2_KI270716v1_random,length=153799>
+##contig=<ID=chr2_GL383521v1_alt,length=143390>
+##contig=<ID=chr2_GL383522v1_alt,length=123821>
+##contig=<ID=chr2_GL582966v2_alt,length=96131>
+##contig=<ID=chr2_KI270767v1_alt,length=161578>
+##contig=<ID=chr2_KI270768v1_alt,length=110099>
+##contig=<ID=chr2_KI270769v1_alt,length=120616>
+##contig=<ID=chr2_KI270770v1_alt,length=136240>
+##contig=<ID=chr2_KI270771v1_alt,length=110395>
+##contig=<ID=chr2_KI270772v1_alt,length=133041>
+##contig=<ID=chr2_KI270773v1_alt,length=70887>
+##contig=<ID=chr2_KI270774v1_alt,length=223625>
+##contig=<ID=chr2_KI270775v1_alt,length=138019>
+##contig=<ID=chr2_KI270776v1_alt,length=174166>
+##contig=<ID=chr2_KI270893v1_alt,length=161218>
+##contig=<ID=chr2_KI270894v1_alt,length=214158>
+##contig=<ID=chr3,length=198295559>
+##contig=<ID=chr3_GL000221v1_random,length=155397>
+##contig=<ID=chr3_GL383526v1_alt,length=180671>
+##contig=<ID=chr3_JH636055v2_alt,length=173151>
+##contig=<ID=chr3_KI270777v1_alt,length=173649>
+##contig=<ID=chr3_KI270778v1_alt,length=248252>
+##contig=<ID=chr3_KI270779v1_alt,length=205312>
+##contig=<ID=chr3_KI270780v1_alt,length=224108>
+##contig=<ID=chr3_KI270781v1_alt,length=113034>
+##contig=<ID=chr3_KI270782v1_alt,length=162429>
+##contig=<ID=chr3_KI270783v1_alt,length=109187>
+##contig=<ID=chr3_KI270784v1_alt,length=184404>
+##contig=<ID=chr3_KI270895v1_alt,length=162896>
+##contig=<ID=chr3_KI270924v1_alt,length=166540>
+##contig=<ID=chr3_KI270934v1_alt,length=163458>
+##contig=<ID=chr3_KI270935v1_alt,length=197351>
+##contig=<ID=chr3_KI270936v1_alt,length=164170>
+##contig=<ID=chr3_KI270937v1_alt,length=165607>
+##contig=<ID=chr4,length=190214555>
+##contig=<ID=chr4_GL000008v2_random,length=209709>
+##contig=<ID=chr4_GL000257v2_alt,length=586476>
+##contig=<ID=chr4_GL383527v1_alt,length=164536>
+##contig=<ID=chr4_GL383528v1_alt,length=376187>
+##contig=<ID=chr4_KI270785v1_alt,length=119912>
+##contig=<ID=chr4_KI270786v1_alt,length=244096>
+##contig=<ID=chr4_KI270787v1_alt,length=111943>
+##contig=<ID=chr4_KI270788v1_alt,length=158965>
+##contig=<ID=chr4_KI270789v1_alt,length=205944>
+##contig=<ID=chr4_KI270790v1_alt,length=220246>
+##contig=<ID=chr4_KI270896v1_alt,length=378547>
+##contig=<ID=chr4_KI270925v1_alt,length=555799>
+##contig=<ID=chr5,length=181538259>
+##contig=<ID=chr5_GL000208v1_random,length=92689>
+##contig=<ID=chr5_GL339449v2_alt,length=1612928>
+##contig=<ID=chr5_GL383530v1_alt,length=101241>
+##contig=<ID=chr5_GL383531v1_alt,length=173459>
+##contig=<ID=chr5_GL383532v1_alt,length=82728>
+##contig=<ID=chr5_GL949742v1_alt,length=226852>
+##contig=<ID=chr5_KI270791v1_alt,length=195710>
+##contig=<ID=chr5_KI270792v1_alt,length=179043>
+##contig=<ID=chr5_KI270793v1_alt,length=126136>
+##contig=<ID=chr5_KI270794v1_alt,length=164558>
+##contig=<ID=chr5_KI270795v1_alt,length=131892>
+##contig=<ID=chr5_KI270796v1_alt,length=172708>
+##contig=<ID=chr5_KI270897v1_alt,length=1144418>
+##contig=<ID=chr5_KI270898v1_alt,length=130957>
+##contig=<ID=chr6,length=170805979>
+##contig=<ID=chr6_GL000250v2_alt,length=4672374>
+##contig=<ID=chr6_GL000251v2_alt,length=4795265>
+##contig=<ID=chr6_GL000252v2_alt,length=4604811>
+##contig=<ID=chr6_GL000253v2_alt,length=4677643>
+##contig=<ID=chr6_GL000254v2_alt,length=4827813>
+##contig=<ID=chr6_GL000255v2_alt,length=4606388>
+##contig=<ID=chr6_GL000256v2_alt,length=4929269>
+##contig=<ID=chr6_GL383533v1_alt,length=124736>
+##contig=<ID=chr6_KB021644v2_alt,length=185823>
+##contig=<ID=chr6_KI270758v1_alt,length=76752>
+##contig=<ID=chr6_KI270797v1_alt,length=197536>
+##contig=<ID=chr6_KI270798v1_alt,length=271782>
+##contig=<ID=chr6_KI270799v1_alt,length=152148>
+##contig=<ID=chr6_KI270800v1_alt,length=175808>
+##contig=<ID=chr6_KI270801v1_alt,length=870480>
+##contig=<ID=chr6_KI270802v1_alt,length=75005>
+##contig=<ID=chr7,length=159345973>
+##contig=<ID=chr7_GL383534v2_alt,length=119183>
+##contig=<ID=chr7_KI270803v1_alt,length=1111570>
+##contig=<ID=chr7_KI270804v1_alt,length=157952>
+##contig=<ID=chr7_KI270805v1_alt,length=209988>
+##contig=<ID=chr7_KI270806v1_alt,length=158166>
+##contig=<ID=chr7_KI270807v1_alt,length=126434>
+##contig=<ID=chr7_KI270808v1_alt,length=271455>
+##contig=<ID=chr7_KI270809v1_alt,length=209586>
+##contig=<ID=chr7_KI270899v1_alt,length=190869>
+##contig=<ID=chr8,length=145138636>
+##contig=<ID=chr8_KI270810v1_alt,length=374415>
+##contig=<ID=chr8_KI270811v1_alt,length=292436>
+##contig=<ID=chr8_KI270812v1_alt,length=282736>
+##contig=<ID=chr8_KI270813v1_alt,length=300230>
+##contig=<ID=chr8_KI270814v1_alt,length=141812>
+##contig=<ID=chr8_KI270815v1_alt,length=132244>
+##contig=<ID=chr8_KI270816v1_alt,length=305841>
+##contig=<ID=chr8_KI270817v1_alt,length=158983>
+##contig=<ID=chr8_KI270818v1_alt,length=145606>
+##contig=<ID=chr8_KI270819v1_alt,length=133535>
+##contig=<ID=chr8_KI270820v1_alt,length=36640>
+##contig=<ID=chr8_KI270821v1_alt,length=985506>
+##contig=<ID=chr8_KI270822v1_alt,length=624492>
+##contig=<ID=chr8_KI270900v1_alt,length=318687>
+##contig=<ID=chr8_KI270901v1_alt,length=136959>
+##contig=<ID=chr8_KI270926v1_alt,length=229282>
+##contig=<ID=chr9,length=138394717>
+##contig=<ID=chr9_KI270717v1_random,length=40062>
+##contig=<ID=chr9_KI270718v1_random,length=38054>
+##contig=<ID=chr9_KI270719v1_random,length=176845>
+##contig=<ID=chr9_KI270720v1_random,length=39050>
+##contig=<ID=chr9_GL383539v1_alt,length=162988>
+##contig=<ID=chr9_GL383540v1_alt,length=71551>
+##contig=<ID=chr9_GL383541v1_alt,length=171286>
+##contig=<ID=chr9_GL383542v1_alt,length=60032>
+##contig=<ID=chr9_KI270823v1_alt,length=439082>
+##contig=<ID=chr10,length=133797422>
+##contig=<ID=chr10_GL383545v1_alt,length=179254>
+##contig=<ID=chr10_GL383546v1_alt,length=309802>
+##contig=<ID=chr10_KI270824v1_alt,length=181496>
+##contig=<ID=chr10_KI270825v1_alt,length=188315>
+##contig=<ID=chr11,length=135086622>
+##contig=<ID=chr11_KI270721v1_random,length=100316>
+##contig=<ID=chr11_GL383547v1_alt,length=154407>
+##contig=<ID=chr11_JH159136v1_alt,length=200998>
+##contig=<ID=chr11_JH159137v1_alt,length=191409>
+##contig=<ID=chr11_KI270826v1_alt,length=186169>
+##contig=<ID=chr11_KI270827v1_alt,length=67707>
+##contig=<ID=chr11_KI270829v1_alt,length=204059>
+##contig=<ID=chr11_KI270830v1_alt,length=177092>
+##contig=<ID=chr11_KI270831v1_alt,length=296895>
+##contig=<ID=chr11_KI270832v1_alt,length=210133>
+##contig=<ID=chr11_KI270902v1_alt,length=106711>
+##contig=<ID=chr11_KI270903v1_alt,length=214625>
+##contig=<ID=chr11_KI270927v1_alt,length=218612>
+##contig=<ID=chr12,length=133275309>
+##contig=<ID=chr12_GL383549v1_alt,length=120804>
+##contig=<ID=chr12_GL383550v2_alt,length=169178>
+##contig=<ID=chr12_GL383551v1_alt,length=184319>
+##contig=<ID=chr12_GL383552v1_alt,length=138655>
+##contig=<ID=chr12_GL383553v2_alt,length=152874>
+##contig=<ID=chr12_GL877875v1_alt,length=167313>
+##contig=<ID=chr12_GL877876v1_alt,length=408271>
+##contig=<ID=chr12_KI270833v1_alt,length=76061>
+##contig=<ID=chr12_KI270834v1_alt,length=119498>
+##contig=<ID=chr12_KI270835v1_alt,length=238139>
+##contig=<ID=chr12_KI270836v1_alt,length=56134>
+##contig=<ID=chr12_KI270837v1_alt,length=40090>
+##contig=<ID=chr12_KI270904v1_alt,length=572349>
+##contig=<ID=chr13,length=114364328>
+##contig=<ID=chr13_KI270838v1_alt,length=306913>
+##contig=<ID=chr13_KI270839v1_alt,length=180306>
+##contig=<ID=chr13_KI270840v1_alt,length=191684>
+##contig=<ID=chr13_KI270841v1_alt,length=169134>
+##contig=<ID=chr13_KI270842v1_alt,length=37287>
+##contig=<ID=chr13_KI270843v1_alt,length=103832>
+##contig=<ID=chr14,length=107043718>
+##contig=<ID=chr14_GL000009v2_random,length=201709>
+##contig=<ID=chr14_GL000194v1_random,length=191469>
+##contig=<ID=chr14_GL000225v1_random,length=211173>
+##contig=<ID=chr14_KI270722v1_random,length=194050>
+##contig=<ID=chr14_KI270723v1_random,length=38115>
+##contig=<ID=chr14_KI270724v1_random,length=39555>
+##contig=<ID=chr14_KI270725v1_random,length=172810>
+##contig=<ID=chr14_KI270726v1_random,length=43739>
+##contig=<ID=chr14_KI270844v1_alt,length=322166>
+##contig=<ID=chr14_KI270845v1_alt,length=180703>
+##contig=<ID=chr14_KI270846v1_alt,length=1351393>
+##contig=<ID=chr14_KI270847v1_alt,length=1511111>
+##contig=<ID=chr15,length=101991189>
+##contig=<ID=chr15_KI270727v1_random,length=448248>
+##contig=<ID=chr15_GL383554v1_alt,length=296527>
+##contig=<ID=chr15_GL383555v2_alt,length=388773>
+##contig=<ID=chr15_KI270848v1_alt,length=327382>
+##contig=<ID=chr15_KI270849v1_alt,length=244917>
+##contig=<ID=chr15_KI270850v1_alt,length=430880>
+##contig=<ID=chr15_KI270851v1_alt,length=263054>
+##contig=<ID=chr15_KI270852v1_alt,length=478999>
+##contig=<ID=chr15_KI270905v1_alt,length=5161414>
+##contig=<ID=chr15_KI270906v1_alt,length=196384>
+##contig=<ID=chr16,length=90338345>
+##contig=<ID=chr16_KI270728v1_random,length=1872759>
+##contig=<ID=chr16_GL383556v1_alt,length=192462>
+##contig=<ID=chr16_GL383557v1_alt,length=89672>
+##contig=<ID=chr16_KI270853v1_alt,length=2659700>
+##contig=<ID=chr16_KI270854v1_alt,length=134193>
+##contig=<ID=chr16_KI270855v1_alt,length=232857>
+##contig=<ID=chr16_KI270856v1_alt,length=63982>
+##contig=<ID=chr17,length=83257441>
+##contig=<ID=chr17_GL000205v2_random,length=185591>
+##contig=<ID=chr17_KI270729v1_random,length=280839>
+##contig=<ID=chr17_KI270730v1_random,length=112551>
+##contig=<ID=chr17_GL000258v2_alt,length=1821992>
+##contig=<ID=chr17_GL383563v3_alt,length=375691>
+##contig=<ID=chr17_GL383564v2_alt,length=133151>
+##contig=<ID=chr17_GL383565v1_alt,length=223995>
+##contig=<ID=chr17_GL383566v1_alt,length=90219>
+##contig=<ID=chr17_JH159146v1_alt,length=278131>
+##contig=<ID=chr17_JH159147v1_alt,length=70345>
+##contig=<ID=chr17_JH159148v1_alt,length=88070>
+##contig=<ID=chr17_KI270857v1_alt,length=2877074>
+##contig=<ID=chr17_KI270858v1_alt,length=235827>
+##contig=<ID=chr17_KI270859v1_alt,length=108763>
+##contig=<ID=chr17_KI270860v1_alt,length=178921>
+##contig=<ID=chr17_KI270861v1_alt,length=196688>
+##contig=<ID=chr17_KI270862v1_alt,length=391357>
+##contig=<ID=chr17_KI270907v1_alt,length=137721>
+##contig=<ID=chr17_KI270908v1_alt,length=1423190>
+##contig=<ID=chr17_KI270909v1_alt,length=325800>
+##contig=<ID=chr17_KI270910v1_alt,length=157099>
+##contig=<ID=chr18,length=80373285>
+##contig=<ID=chr18_GL383567v1_alt,length=289831>
+##contig=<ID=chr18_GL383568v1_alt,length=104552>
+##contig=<ID=chr18_GL383569v1_alt,length=167950>
+##contig=<ID=chr18_GL383570v1_alt,length=164789>
+##contig=<ID=chr18_GL383571v1_alt,length=198278>
+##contig=<ID=chr18_GL383572v1_alt,length=159547>
+##contig=<ID=chr18_KI270863v1_alt,length=167999>
+##contig=<ID=chr18_KI270864v1_alt,length=111737>
+##contig=<ID=chr18_KI270911v1_alt,length=157710>
+##contig=<ID=chr18_KI270912v1_alt,length=174061>
+##contig=<ID=chr19,length=58617616>
+##contig=<ID=chr19_GL000209v2_alt,length=177381>
+##contig=<ID=chr19_GL383573v1_alt,length=385657>
+##contig=<ID=chr19_GL383574v1_alt,length=155864>
+##contig=<ID=chr19_GL383575v2_alt,length=170222>
+##contig=<ID=chr19_GL383576v1_alt,length=188024>
+##contig=<ID=chr19_GL949746v1_alt,length=987716>
+##contig=<ID=chr19_GL949747v2_alt,length=729520>
+##contig=<ID=chr19_GL949748v2_alt,length=1064304>
+##contig=<ID=chr19_GL949749v2_alt,length=1091841>
+##contig=<ID=chr19_GL949750v2_alt,length=1066390>
+##contig=<ID=chr19_GL949751v2_alt,length=1002683>
+##contig=<ID=chr19_GL949752v1_alt,length=987100>
+##contig=<ID=chr19_GL949753v2_alt,length=796479>
+##contig=<ID=chr19_KI270865v1_alt,length=52969>
+##contig=<ID=chr19_KI270866v1_alt,length=43156>
+##contig=<ID=chr19_KI270867v1_alt,length=233762>
+##contig=<ID=chr19_KI270868v1_alt,length=61734>
+##contig=<ID=chr19_KI270882v1_alt,length=248807>
+##contig=<ID=chr19_KI270883v1_alt,length=170399>
+##contig=<ID=chr19_KI270884v1_alt,length=157053>
+##contig=<ID=chr19_KI270885v1_alt,length=171027>
+##contig=<ID=chr19_KI270886v1_alt,length=204239>
+##contig=<ID=chr19_KI270887v1_alt,length=209512>
+##contig=<ID=chr19_KI270888v1_alt,length=155532>
+##contig=<ID=chr19_KI270889v1_alt,length=170698>
+##contig=<ID=chr19_KI270890v1_alt,length=184499>
+##contig=<ID=chr19_KI270891v1_alt,length=170680>
+##contig=<ID=chr19_KI270914v1_alt,length=205194>
+##contig=<ID=chr19_KI270915v1_alt,length=170665>
+##contig=<ID=chr19_KI270916v1_alt,length=184516>
+##contig=<ID=chr19_KI270917v1_alt,length=190932>
+##contig=<ID=chr19_KI270918v1_alt,length=123111>
+##contig=<ID=chr19_KI270919v1_alt,length=170701>
+##contig=<ID=chr19_KI270920v1_alt,length=198005>
+##contig=<ID=chr19_KI270921v1_alt,length=282224>
+##contig=<ID=chr19_KI270922v1_alt,length=187935>
+##contig=<ID=chr19_KI270923v1_alt,length=189352>
+##contig=<ID=chr19_KI270929v1_alt,length=186203>
+##contig=<ID=chr19_KI270930v1_alt,length=200773>
+##contig=<ID=chr19_KI270931v1_alt,length=170148>
+##contig=<ID=chr19_KI270932v1_alt,length=215732>
+##contig=<ID=chr19_KI270933v1_alt,length=170537>
+##contig=<ID=chr19_KI270938v1_alt,length=1066800>
+##contig=<ID=chr20,length=64444167>
+##contig=<ID=chr20_GL383577v2_alt,length=128386>
+##contig=<ID=chr20_KI270869v1_alt,length=118774>
+##contig=<ID=chr20_KI270870v1_alt,length=183433>
+##contig=<ID=chr20_KI270871v1_alt,length=58661>
+##contig=<ID=chr21,length=46709983>
+##contig=<ID=chr21_GL383578v2_alt,length=63917>
+##contig=<ID=chr21_GL383579v2_alt,length=201197>
+##contig=<ID=chr21_GL383580v2_alt,length=74653>
+##contig=<ID=chr21_GL383581v2_alt,length=116689>
+##contig=<ID=chr21_KI270872v1_alt,length=82692>
+##contig=<ID=chr21_KI270873v1_alt,length=143900>
+##contig=<ID=chr21_KI270874v1_alt,length=166743>
+##contig=<ID=chr22,length=50818468>
+##contig=<ID=chr22_KI270731v1_random,length=150754>
+##contig=<ID=chr22_KI270732v1_random,length=41543>
+##contig=<ID=chr22_KI270733v1_random,length=179772>
+##contig=<ID=chr22_KI270734v1_random,length=165050>
+##contig=<ID=chr22_KI270735v1_random,length=42811>
+##contig=<ID=chr22_KI270736v1_random,length=181920>
+##contig=<ID=chr22_KI270737v1_random,length=103838>
+##contig=<ID=chr22_KI270738v1_random,length=99375>
+##contig=<ID=chr22_KI270739v1_random,length=73985>
+##contig=<ID=chr22_GL383582v2_alt,length=162811>
+##contig=<ID=chr22_GL383583v2_alt,length=96924>
+##contig=<ID=chr22_KB663609v1_alt,length=74013>
+##contig=<ID=chr22_KI270875v1_alt,length=259914>
+##contig=<ID=chr22_KI270876v1_alt,length=263666>
+##contig=<ID=chr22_KI270877v1_alt,length=101331>
+##contig=<ID=chr22_KI270878v1_alt,length=186262>
+##contig=<ID=chr22_KI270879v1_alt,length=304135>
+##contig=<ID=chr22_KI270928v1_alt,length=176103>
+##contig=<ID=chrX,length=156040895>
+##contig=<ID=chrX_KI270880v1_alt,length=284869>
+##contig=<ID=chrX_KI270881v1_alt,length=144206>
+##contig=<ID=chrX_KI270913v1_alt,length=274009>
+##contig=<ID=chrY,length=57227415>
+##contig=<ID=chrY_KI270740v1_random,length=37240>
+##contig=<ID=chrM,length=16569>
+##contig=<ID=chrUn_GL000195v1,length=182896>
+##contig=<ID=chrUn_GL000213v1,length=164239>
+##contig=<ID=chrUn_GL000214v1,length=137718>
+##contig=<ID=chrUn_GL000216v2,length=176608>
+##contig=<ID=chrUn_GL000218v1,length=161147>
+##contig=<ID=chrUn_GL000219v1,length=179198>
+##contig=<ID=chrUn_GL000220v1,length=161802>
+##contig=<ID=chrUn_GL000224v1,length=179693>
+##contig=<ID=chrUn_GL000226v1,length=15008>
+##contig=<ID=chrUn_KI270302v1,length=2274>
+##contig=<ID=chrUn_KI270303v1,length=1942>
+##contig=<ID=chrUn_KI270304v1,length=2165>
+##contig=<ID=chrUn_KI270305v1,length=1472>
+##contig=<ID=chrUn_KI270310v1,length=1201>
+##contig=<ID=chrUn_KI270311v1,length=12399>
+##contig=<ID=chrUn_KI270312v1,length=998>
+##contig=<ID=chrUn_KI270315v1,length=2276>
+##contig=<ID=chrUn_KI270316v1,length=1444>
+##contig=<ID=chrUn_KI270317v1,length=37690>
+##contig=<ID=chrUn_KI270320v1,length=4416>
+##contig=<ID=chrUn_KI270322v1,length=21476>
+##contig=<ID=chrUn_KI270329v1,length=1040>
+##contig=<ID=chrUn_KI270330v1,length=1652>
+##contig=<ID=chrUn_KI270333v1,length=2699>
+##contig=<ID=chrUn_KI270334v1,length=1368>
+##contig=<ID=chrUn_KI270335v1,length=1048>
+##contig=<ID=chrUn_KI270336v1,length=1026>
+##contig=<ID=chrUn_KI270337v1,length=1121>
+##contig=<ID=chrUn_KI270338v1,length=1428>
+##contig=<ID=chrUn_KI270340v1,length=1428>
+##contig=<ID=chrUn_KI270362v1,length=3530>
+##contig=<ID=chrUn_KI270363v1,length=1803>
+##contig=<ID=chrUn_KI270364v1,length=2855>
+##contig=<ID=chrUn_KI270366v1,length=8320>
+##contig=<ID=chrUn_KI270371v1,length=2805>
+##contig=<ID=chrUn_KI270372v1,length=1650>
+##contig=<ID=chrUn_KI270373v1,length=1451>
+##contig=<ID=chrUn_KI270374v1,length=2656>
+##contig=<ID=chrUn_KI270375v1,length=2378>
+##contig=<ID=chrUn_KI270376v1,length=1136>
+##contig=<ID=chrUn_KI270378v1,length=1048>
+##contig=<ID=chrUn_KI270379v1,length=1045>
+##contig=<ID=chrUn_KI270381v1,length=1930>
+##contig=<ID=chrUn_KI270382v1,length=4215>
+##contig=<ID=chrUn_KI270383v1,length=1750>
+##contig=<ID=chrUn_KI270384v1,length=1658>
+##contig=<ID=chrUn_KI270385v1,length=990>
+##contig=<ID=chrUn_KI270386v1,length=1788>
+##contig=<ID=chrUn_KI270387v1,length=1537>
+##contig=<ID=chrUn_KI270388v1,length=1216>
+##contig=<ID=chrUn_KI270389v1,length=1298>
+##contig=<ID=chrUn_KI270390v1,length=2387>
+##contig=<ID=chrUn_KI270391v1,length=1484>
+##contig=<ID=chrUn_KI270392v1,length=971>
+##contig=<ID=chrUn_KI270393v1,length=1308>
+##contig=<ID=chrUn_KI270394v1,length=970>
+##contig=<ID=chrUn_KI270395v1,length=1143>
+##contig=<ID=chrUn_KI270396v1,length=1880>
+##contig=<ID=chrUn_KI270411v1,length=2646>
+##contig=<ID=chrUn_KI270412v1,length=1179>
+##contig=<ID=chrUn_KI270414v1,length=2489>
+##contig=<ID=chrUn_KI270417v1,length=2043>
+##contig=<ID=chrUn_KI270418v1,length=2145>
+##contig=<ID=chrUn_KI270419v1,length=1029>
+##contig=<ID=chrUn_KI270420v1,length=2321>
+##contig=<ID=chrUn_KI270422v1,length=1445>
+##contig=<ID=chrUn_KI270423v1,length=981>
+##contig=<ID=chrUn_KI270424v1,length=2140>
+##contig=<ID=chrUn_KI270425v1,length=1884>
+##contig=<ID=chrUn_KI270429v1,length=1361>
+##contig=<ID=chrUn_KI270435v1,length=92983>
+##contig=<ID=chrUn_KI270438v1,length=112505>
+##contig=<ID=chrUn_KI270442v1,length=392061>
+##contig=<ID=chrUn_KI270448v1,length=7992>
+##contig=<ID=chrUn_KI270465v1,length=1774>
+##contig=<ID=chrUn_KI270466v1,length=1233>
+##contig=<ID=chrUn_KI270467v1,length=3920>
+##contig=<ID=chrUn_KI270468v1,length=4055>
+##contig=<ID=chrUn_KI270507v1,length=5353>
+##contig=<ID=chrUn_KI270508v1,length=1951>
+##contig=<ID=chrUn_KI270509v1,length=2318>
+##contig=<ID=chrUn_KI270510v1,length=2415>
+##contig=<ID=chrUn_KI270511v1,length=8127>
+##contig=<ID=chrUn_KI270512v1,length=22689>
+##contig=<ID=chrUn_KI270515v1,length=6361>
+##contig=<ID=chrUn_KI270516v1,length=1300>
+##contig=<ID=chrUn_KI270517v1,length=3253>
+##contig=<ID=chrUn_KI270518v1,length=2186>
+##contig=<ID=chrUn_KI270519v1,length=138126>
+##contig=<ID=chrUn_KI270521v1,length=7642>
+##contig=<ID=chrUn_KI270522v1,length=5674>
+##contig=<ID=chrUn_KI270528v1,length=2983>
+##contig=<ID=chrUn_KI270529v1,length=1899>
+##contig=<ID=chrUn_KI270530v1,length=2168>
+##contig=<ID=chrUn_KI270538v1,length=91309>
+##contig=<ID=chrUn_KI270539v1,length=993>
+##contig=<ID=chrUn_KI270544v1,length=1202>
+##contig=<ID=chrUn_KI270548v1,length=1599>
+##contig=<ID=chrUn_KI270579v1,length=31033>
+##contig=<ID=chrUn_KI270580v1,length=1553>
+##contig=<ID=chrUn_KI270581v1,length=7046>
+##contig=<ID=chrUn_KI270582v1,length=6504>
+##contig=<ID=chrUn_KI270583v1,length=1400>
+##contig=<ID=chrUn_KI270584v1,length=4513>
+##contig=<ID=chrUn_KI270587v1,length=2969>
+##contig=<ID=chrUn_KI270588v1,length=6158>
+##contig=<ID=chrUn_KI270589v1,length=44474>
+##contig=<ID=chrUn_KI270590v1,length=4685>
+##contig=<ID=chrUn_KI270591v1,length=5796>
+##contig=<ID=chrUn_KI270593v1,length=3041>
+##contig=<ID=chrUn_KI270741v1,length=157432>
+##contig=<ID=chrUn_KI270742v1,length=186739>
+##contig=<ID=chrUn_KI270743v1,length=210658>
+##contig=<ID=chrUn_KI270744v1,length=168472>
+##contig=<ID=chrUn_KI270745v1,length=41891>
+##contig=<ID=chrUn_KI270746v1,length=66486>
+##contig=<ID=chrUn_KI270747v1,length=198735>
+##contig=<ID=chrUn_KI270748v1,length=93321>
+##contig=<ID=chrUn_KI270749v1,length=158759>
+##contig=<ID=chrUn_KI270750v1,length=148850>
+##contig=<ID=chrUn_KI270751v1,length=150742>
+##contig=<ID=chrUn_KI270752v1,length=27745>
+##contig=<ID=chrUn_KI270753v1,length=62944>
+##contig=<ID=chrUn_KI270754v1,length=40191>
+##contig=<ID=chrUn_KI270755v1,length=36723>
+##contig=<ID=chrUn_KI270756v1,length=79590>
+##contig=<ID=chrUn_KI270757v1,length=71251>
+##phasing=none
+##commandline="freebayes --region chrY_KI270740v1_random:0..37240 --bam b_0.bam --fasta-reference /galaxy/data/hg38/sam_index/hg38.fa --vcf ./vcf_output/part_chrY_KI270740v1_random:0..37240.vcf"
+##INFO=<ID=NS,Number=1,Type=Integer,Description="Number of samples with data">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total read depth at the locus">
+##INFO=<ID=DPB,Number=1,Type=Float,Description="Total read depth per bp at the locus; bases in reads overlapping / bases in haplotype">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Total number of alternate alleles in called genotypes">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Estimated allele frequency in the range (0,1]">
+##INFO=<ID=RO,Number=1,Type=Integer,Description="Count of full observations of the reference haplotype.">
+##INFO=<ID=AO,Number=A,Type=Integer,Description="Count of full observations of this alternate haplotype.">
+##INFO=<ID=PRO,Number=1,Type=Float,Description="Reference allele observation count, with partial observations recorded fractionally">
+##INFO=<ID=PAO,Number=A,Type=Float,Description="Alternate allele observations, with partial observations recorded fractionally">
+##INFO=<ID=QR,Number=1,Type=Integer,Description="Reference allele quality sum in phred">
+##INFO=<ID=QA,Number=A,Type=Integer,Description="Alternate allele quality sum in phred">
+##INFO=<ID=PQR,Number=1,Type=Float,Description="Reference allele quality sum in phred for partial observations">
+##INFO=<ID=PQA,Number=A,Type=Float,Description="Alternate allele quality sum in phred for partial observations">
+##INFO=<ID=SRF,Number=1,Type=Integer,Description="Number of reference observations on the forward strand">
+##INFO=<ID=SRR,Number=1,Type=Integer,Description="Number of reference observations on the reverse strand">
+##INFO=<ID=SAF,Number=A,Type=Integer,Description="Number of alternate observations on the forward strand">
+##INFO=<ID=SAR,Number=A,Type=Integer,Description="Number of alternate observations on the reverse strand">
+##INFO=<ID=SRP,Number=1,Type=Float,Description="Strand balance probability for the reference allele: Phred-scaled upper-bounds estimate of the probability of observing the deviation between SRF and SRR given E(SRF/SRR) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=SAP,Number=A,Type=Float,Description="Strand balance probability for the alternate allele: Phred-scaled upper-bounds estimate of the probability of observing the deviation between SAF and SAR given E(SAF/SAR) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=AB,Number=A,Type=Float,Description="Allele balance at heterozygous sites: a number between 0 and 1 representing the ratio of reads showing the reference allele to all reads, considering only reads from individuals called as heterozygous">
+##INFO=<ID=ABP,Number=A,Type=Float,Description="Allele balance probability at heterozygous sites: Phred-scaled upper-bounds estimate of the probability of observing the deviation between ABR and ABA given E(ABR/ABA) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=RUN,Number=A,Type=Integer,Description="Run length: the number of consecutive repeats of the alternate allele in the reference genome">
+##INFO=<ID=RPP,Number=A,Type=Float,Description="Read Placement Probability: Phred-scaled upper-bounds estimate of the probability of observing the deviation between RPL and RPR given E(RPL/RPR) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=RPPR,Number=1,Type=Float,Description="Read Placement Probability for reference observations: Phred-scaled upper-bounds estimate of the probability of observing the deviation between RPL and RPR given E(RPL/RPR) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=RPL,Number=A,Type=Float,Description="Reads Placed Left: number of reads supporting the alternate balanced to the left (5') of the alternate allele">
+##INFO=<ID=RPR,Number=A,Type=Float,Description="Reads Placed Right: number of reads supporting the alternate balanced to the right (3') of the alternate allele">
+##INFO=<ID=EPP,Number=A,Type=Float,Description="End Placement Probability: Phred-scaled upper-bounds estimate of the probability of observing the deviation between EL and ER given E(EL/ER) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=EPPR,Number=1,Type=Float,Description="End Placement Probability for reference observations: Phred-scaled upper-bounds estimate of the probability of observing the deviation between EL and ER given E(EL/ER) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=DPRA,Number=A,Type=Float,Description="Alternate allele depth ratio.  Ratio between depth in samples with each called alternate allele and those without.">
+##INFO=<ID=ODDS,Number=1,Type=Float,Description="The log odds ratio of the best genotype combination to the second-best.">
+##INFO=<ID=GTI,Number=1,Type=Integer,Description="Number of genotyping iterations required to reach convergence or bailout.">
+##INFO=<ID=TYPE,Number=A,Type=String,Description="The type of allele, either snp, mnp, ins, del, or complex.">
+##INFO=<ID=CIGAR,Number=A,Type=String,Description="The extended CIGAR representation of each alternate allele, with the exception that '=' is replaced by 'M' to ease VCF parsing.  Note that INDEL alleles do not have the first matched base (which is provided by default, per the spec) referred to by the CIGAR.">
+##INFO=<ID=NUMALT,Number=1,Type=Integer,Description="Number of unique non-reference alleles in called genotypes at this position.">
+##INFO=<ID=MEANALT,Number=A,Type=Float,Description="Mean number of unique non-reference allele observations per sample with the corresponding alternate alleles.">
+##INFO=<ID=LEN,Number=A,Type=Integer,Description="allele length">
+##INFO=<ID=MQM,Number=A,Type=Float,Description="Mean mapping quality of observed alternate alleles">
+##INFO=<ID=MQMR,Number=1,Type=Float,Description="Mean mapping quality of observed reference alleles">
+##INFO=<ID=PAIRED,Number=A,Type=Float,Description="Proportion of observed alternate alleles which are supported by properly paired read fragments">
+##INFO=<ID=PAIREDR,Number=1,Type=Float,Description="Proportion of observed reference alleles which are supported by properly paired read fragments">
+##INFO=<ID=MIN_DP,Number=1,Type=Integer,Description="Minimum depth in gVCF output block.">
+##INFO=<ID=END,Number=1,Type=Integer,Description="Last position (inclusive) in gVCF output record.">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Float,Description="Genotype Quality, the Phred-scaled marginal (or unconditional) probability of the called genotype">
+##FORMAT=<ID=GL,Number=G,Type=Float,Description="Genotype Likelihood, log10-scaled likelihoods of the data given the called genotype for each possible genotype generated from the reference and alternate alleles given the sample ploidy">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Number of observation for each allele">
+##FORMAT=<ID=RO,Number=1,Type=Integer,Description="Reference allele observation count">
+##FORMAT=<ID=QR,Number=1,Type=Integer,Description="Sum of quality of the reference observations">
+##FORMAT=<ID=AO,Number=A,Type=Integer,Description="Alternate allele observation count">
+##FORMAT=<ID=QA,Number=A,Type=Integer,Description="Sum of quality of the alternate observations">
+##FORMAT=<ID=MIN_DP,Number=1,Type=Integer,Description="Minimum depth in gVCF output block.">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	unknown
+chr1	3873462	.	C	T	0.704492	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=6;MQMR=0;NS=1;NUMALT=1;ODDS=1.73725;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=44;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:44:-1.0517,-0.60206,0
+chr1	8515453	.	G	A	33.9581	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=28;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=80;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:80:-5.20155,-0.60206,0
+chr1	20269435	.	C	T	48.3958	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=70;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:70:-6.64548,-0.60206,0
+chr1	41421957	.	C	T	1.80979	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=8;MQMR=0;NS=1;NUMALT=1;ODDS=0.66038;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-1.51938,-0.60206,0
+chr1	44801922	.	C	T	28.4644	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=58;MQMR=0;NS=1;NUMALT=1;ODDS=6.55211;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=49;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:49:-4.65173,-0.60206,0
+chr1	45211907	.	C	T	0.843982	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=6;MQMR=0;NS=1;NUMALT=1;ODDS=1.54006;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=59;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:59:-1.13734,-0.60206,0
+chr1	45353094	.	C	T	1.03245	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=6.5;MQMR=0;NS=1;NUMALT=1;ODDS=1.31602;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-1.23464,-0.60206,0
+chr1	54253386	.	C	T	0.30302	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=3.5;MQMR=0;NS=1;NUMALT=1;ODDS=2.62805;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=76;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:76:-0.664834,-0.60206,0
+chr1	56323227	.	C	T	1.2502	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=7;MQMR=0;NS=1;NUMALT=1;ODDS=1.09849;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=73;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:73:-1.32911,-0.60206,0
+chr1	74197837	.	C	T	44.6242	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=66;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:66:-6.26831,-0.60206,0
+chr1	101023015	.	G	A	7.45626	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=13;MQMR=0;NS=1;NUMALT=1;ODDS=1.51825;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-2.46555,-0.60206,0
+chr1	155127439	.	C	T	45.5695	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=67;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:67:-6.36284,-0.60206,0
+chr1	155661155	.	C	T	0.565784	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=5;MQMR=0;NS=1;NUMALT=1;ODDS=1.97287;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=68;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:68:-0.949371,-0.60206,0
+chr1	171984383	.	G	A	50.2589	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=56;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=72;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:72:-6.83179,-0.60206,0
+chr1	175368771	.	G	A	0.159878	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=2;MQMR=0;NS=1;NUMALT=1;ODDS=3.28406;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=77;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:77:-0.379931,-0.60206,0
+chr1	203650376	.	C	T	48.9772	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=52;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=71;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:71:-6.70362,-0.60206,0
+chr1	227561799	.	G	A	22.8071	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59.5;MQMR=0;NS=1;NUMALT=1;ODDS=5.24566;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=43;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:43:-4.08434,-0.60206,0
+chr1	229769195	.	C	T	55.9588	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-7.40179,-0.60206,0
+chr10	892572	.	C	T	1.50794	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=7.5;MQMR=0;NS=1;NUMALT=1;ODDS=0.879803;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=74;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:74:-1.42409,-0.60206,0
+chr10	38094506	.	C	T	23.7558	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=5.46514;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=44;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:44:-4.17966,-0.60206,0
+chr10	38500631	.	A	T	3.50208	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=10;MQMR=0;NS=1;NUMALT=1;ODDS=0.214319;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=80;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:80:-1.89926,-0.60206,0
+chr10	38800895	.	T	A	0.694029	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=5.5;MQMR=0;NS=1;NUMALT=1;ODDS=1.75345;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=77;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:77:-1.04467,-0.60206,0
+chr10	41902150	.	A	T	1.25112	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=7;MQMR=0;NS=1;NUMALT=1;ODDS=1.09764;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=80;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:80:-1.32948,-0.60206,0
+chr10	66309512	.	G	A	9.93047	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=14.5;MQMR=0;NS=1;NUMALT=1;ODDS=2.17879;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=79;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:79:-2.75242,-0.60206,0
+chr10	96077929	.	G	A	49.3447	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=71;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:71:-6.74038,-0.60206,0
+chr10	100536191	.	C	T	56.8934	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=79;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:79:-7.49525,-0.60206,0
+chr10	128745907	.	C	T	46.5198	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=68;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:68:-6.45788,-0.60206,0
+chr11	58493381	.	G	A	4.6464	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=11;MQMR=0;NS=1;NUMALT=1;ODDS=0.649099;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=74;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:74:-2.08808,-0.60206,0
+chr11	61756213	.	C	T	52.958	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=44;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=77;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:77:-7.1017,-0.60206,0
+chr11	64971116	.	G	A	0.565956	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=5;MQMR=0;NS=1;NUMALT=1;ODDS=1.97255;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=73;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:73:-0.949512,-0.60206,0
+chr11	101297216	.	C	T	33.6969	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=29;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=67;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:67:-5.17542,-0.60206,0
+chr11	117145447	.	C	G	56.9172	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=79;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:79:-7.49763,-0.60206,0
+chr12	13140593	.	G	A	44.5187	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=51.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=66;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:66:-6.25776,-0.60206,0
+chr12	49316199	.	G	A	1.48263	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=7.5;MQMR=0;NS=1;NUMALT=1;ODDS=0.899811;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=52;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:52:-1.4154,-0.60206,0
+chr12	49799883	.	G	A	101.602	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=4;CIGAR=1X;DP=4;DPB=4;DPRA=0;EPP=11.6962;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=10.1503;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=149;QR=0;RO=0;RPL=0;RPP=11.6962;RPPR=0;RPR=4;RUN=1;SAF=0;SAP=11.6962;SAR=4;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:4:0,4:0:0:4:149:-13.7725,-1.20412,0
+chr12	52002279	.	G	A	0.693736	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=5.5;MQMR=0;NS=1;NUMALT=1;ODDS=1.75391;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=72;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:72:-1.04447,-0.60206,0
+chr12	52949663	.	G	A	53.1369	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-7.11959,-0.60206,0
+chr12	56259548	.	C	T	5.28	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=11.5;MQMR=0;NS=1;NUMALT=1;ODDS=0.863478;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=71;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:71:-2.18118,-0.60206,0
+chr12	56346503	.	C	T	42.7222	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=64;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:64:-6.0781,-0.60206,0
+chr12	56996180	.	G	A	53.1369	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-7.11959,-0.60206,0
+chr12	74012090	.	G	A	56.9088	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=79;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:79:-7.49679,-0.60206,0
+chr14	21103535	.	G	A	45.5715	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=67;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:67:-6.36304,-0.60206,0
+chr14	22822192	.	G	A	37.9069	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=53.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=59;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:59:-5.59653,-0.60206,0
+chr14	89287074	.	C	T	52.575	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=43;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=77;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:77:-7.0634,-0.60206,0
+chr14	89717871	.	G	T	0.159837	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=2;MQMR=0;NS=1;NUMALT=1;ODDS=3.28432;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=69;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:69:-0.379818,-0.60206,0
+chr14	100549403	.	G	A	41.7776	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=63;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:63:-5.98364,-0.60206,0
+chr14_GL000225v1_random	35890	.	G	A	33.9441	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=3;CIGAR=1X;DP=3;DPB=3;DPRA=0;EPP=9.52472;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=25;MQMR=0;NS=1;NUMALT=1;ODDS=7.81537;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=111;QR=0;RO=0;RPL=0;RPP=9.52472;RPPR=0;RPR=3;RUN=1;SAF=0;SAP=9.52472;SAR=3;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:3:0,3:0:0:3:111:-6.10344,-0.90309,0
+chr15	50181018	.	G	A	57.8588	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=80;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:80:-7.59179,-0.60206,0
+chr15	55410471	.	G	A	0.128922	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=1.5;MQMR=0;NS=1;NUMALT=1;ODDS=3.50285;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-0.284913,-0.60206,0
+chr15	67308712	.	A	G	12.6025	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=16.5;MQMR=0;NS=1;NUMALT=1;ODDS=2.84473;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=53;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:53:-3.04163,-0.60206,0
+chr15	90685009	.	C	T	56.7888	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=56.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=79;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:79:-7.48479,-0.60206,0
+chr16	4919056	.	G	A	52.2255	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=50.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-7.02846,-0.60206,0
+chr16	22303416	.	C	T	23.4452	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=22;MQMR=0;NS=1;NUMALT=1;ODDS=5.39331;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=74;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:74:-4.14846,-0.60206,0
+chr16	22976460	.	C	T	0.693511	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=5.5;MQMR=0;NS=1;NUMALT=1;ODDS=1.75426;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=72;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:72:-1.04431,-0.60206,0
+chr16	36102276	.	C	T	55.9588	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-7.40179,-0.60206,0
+chr16	48811595	.	G	A	48.8799	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=42.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=73;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:73:-6.69389,-0.60206,0
+chr16	50908488	.	C	T	2.55099	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=9;MQMR=0;NS=1;NUMALT=1;ODDS=0.224667;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-1.70861,-0.60206,0
+chr16	67909179	.	C	T	41.7728	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=63;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:63:-5.98315,-0.60206,0
+chr16	69842833	.	C	A	0.545444	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=5;MQMR=0;NS=1;NUMALT=1;ODDS=2.01188;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=55;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:55:-0.932432,-0.60206,0
+chr16_KI270856v1_alt	1596	.	C	T	3.4914	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=10;MQMR=0;NS=1;NUMALT=1;ODDS=0.209872;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=74;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:74:-1.89733,-0.60206,0
+chr17	4262570	.	G	A	42.2155	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=34.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=73;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:73:-6.02743,-0.60206,0
+chr17	6430019	.	C	T	47.1347	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=50;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=69;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:69:-6.51937,-0.60206,0
+chr17	7404745	.	G	A	34.1837	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=55;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:55:-5.22411,-0.60206,0
+chr17	8156240	.	G	A	55.9588	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-7.40179,-0.60206,0
+chr17	19336269	.	C	T	47.4377	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=56.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=69;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:69:-6.54968,-0.60206,0
+chr17	26854512	.	C	G	14.3427	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=17;MQMR=0;NS=1;NUMALT=1;ODDS=3.26441;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=79;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:79:-3.2239,-0.60206,0
+chr17	26854546	.	A	T	12.4841	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=3;DPB=3;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=2;MQM=17;MQMR=0;NS=1;NUMALT=1;ODDS=2.81585;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:3:0,2:0:0:2:75:-3.02909,-0.60206,0
+chr17	42491505	.	C	T	17.0726	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=18.5;MQMR=0;NS=1;NUMALT=1;ODDS=3.91067;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-3.50456,-0.60206,0
+chr17	42555738	.	C	T	2.55302	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=9;MQMR=0;NS=1;NUMALT=1;ODDS=0.223616;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=76;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:76:-1.70906,-0.60206,0
+chr17	47101471	.	G	A	2.99294	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=9.5;MQMR=0;NS=1;NUMALT=1;ODDS=0.00863685;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-1.80243,-0.60206,0
+chr17	56942575	.	G	A	20.7933	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=20.5;MQMR=0;NS=1;NUMALT=1;ODDS=4.77884;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-3.8816,-0.60206,0
+chr17	61188926	.	G	A	48.7062	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=44;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=72;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:72:-6.67652,-0.60206,0
+chr17	65630198	.	G	A	1.24711	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=7;MQMR=0;NS=1;NUMALT=1;ODDS=1.10134;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=66;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:66:-1.32787,-0.60206,0
+chr17	66954880	.	G	A	48.4085	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=70;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:70:-6.64675,-0.60206,0
+chr17	77111298	.	C	T	57.6876	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=56;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=80;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:80:-7.57466,-0.60206,0
+chr17	80072035	.	C	T	1.52229	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=3;CIGAR=1X;DP=3;DPB=3;DPRA=0;EPP=9.52472;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=8.33333;MQMR=0;NS=1;NUMALT=1;ODDS=0.868119;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=118;QR=0;RO=0;RPL=3;RPP=9.52472;RPPR=0;RPR=0;RUN=1;SAF=3;SAP=9.52472;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:3:0,3:0:0:3:118:-2.33225,-0.90309,0
+chr17	82248955	.	G	A	46.515	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=68;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:68:-6.4574,-0.60206,0
+chr17	82687895	.	G	A	0.198076	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=2.5;MQMR=0;NS=1;NUMALT=1;ODDS=3.06539;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=76;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:76:-0.474897,-0.60206,0
+chr17	83123057	.	C	T	51.2369	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=73;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:73:-6.92959,-0.60206,0
+chr18	14748326	.	C	T	53.1377	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-7.11967,-0.60206,0
+chr18	24607474	.	G	A	56.9172	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=79;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:79:-7.49763,-0.60206,0
+chr18	34534172	.	T	C	1.80928	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=8;MQMR=0;NS=1;NUMALT=1;ODDS=0.660724;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=76;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:76:-1.51923,-0.60206,0
+chr18	40628108	.	C	G	48.3381	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=46;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=71;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:71:-6.63972,-0.60206,0
+chr19	1229220	.	C	T	50.2986	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=72;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:72:-6.83577,-0.60206,0
+chr19	1739332	.	G	A	0.303062	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=3.5;MQMR=0;NS=1;NUMALT=1;ODDS=2.6279;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=80;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:80:-0.664897,-0.60206,0
+chr19	2207099	.	C	T	51.2444	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=73;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:73:-6.93034,-0.60206,0
+chr19	5698261	.	C	T	54.0739	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=76;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:76:-7.2133,-0.60206,0
+chr19	11839629	.	C	T	0.198066	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=2.5;MQMR=0;NS=1;NUMALT=1;ODDS=3.06544;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=74;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:74:-0.474874,-0.60206,0
+chr19	12036547	.	C	T	54.2086	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=48;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=77;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:77:-7.22677,-0.60206,0
+chr19	12036578	.	C	T	52.4494	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=48;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-7.05085,-0.60206,0
+chr19	19579928	.	G	A	28.4941	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=6.55897;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=49;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:49:-4.65471,-0.60206,0
+chr19	35755316	.	C	T	44.6172	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=66;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:66:-6.26761,-0.60206,0
+chr19	38465586	.	G	A	22.6228	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=21.5;MQMR=0;NS=1;NUMALT=1;ODDS=5.20299;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=76;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:76:-4.06581,-0.60206,0
+chr19	40522548	.	C	T	0.693935	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=5.5;MQMR=0;NS=1;NUMALT=1;ODDS=1.7536;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=76;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:76:-1.0446,-0.60206,0
+chr19	44948092	.	G	A	49.4071	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=40;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-6.74662,-0.60206,0
+chr19	45608202	.	G	A	22.6485	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=21.5;MQMR=0;NS=1;NUMALT=1;ODDS=5.20894;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=77;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:77:-4.06839,-0.60206,0
+chr19	47572796	.	C	T	17.1743	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=3.93455;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=37;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:37:-3.51493,-0.60206,0
+chr19	49684351	.	C	T	39.8821	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=61;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:61:-5.79407,-0.60206,0
+chr19	51692823	.	C	T	51.2444	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=73;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:73:-6.93034,-0.60206,0
+chr19	55460987	.	C	T	55.9501	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-7.40092,-0.60206,0
+chr2	5375115	.	G	A	55.7514	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=53.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-7.38105,-0.60206,0
+chr2	24415876	.	G	A	2.15646	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=8.5;MQMR=0;NS=1;NUMALT=1;ODDS=0.442188;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=79;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:79:-1.61414,-0.60206,0
+chr2	68750356	.	C	T	0.198007	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=2.5;MQMR=0;NS=1;NUMALT=1;ODDS=3.06575;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=69;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:69:-0.474743,-0.60206,0
+chr2	89838148	.	C	G	0.302722	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=3.5;MQMR=0;NS=1;NUMALT=1;ODDS=2.62906;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=65;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:65:-0.664392,-0.60206,0
+chr2	96243039	.	G	A	6.67697	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=12.5;MQMR=0;NS=1;NUMALT=1;ODDS=1.29482;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=80;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:80:-2.36851,-0.60206,0
+chr2	120431401	.	C	T	56.8983	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=79;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:79:-7.49573,-0.60206,0
+chr2	144435524	.	G	A	0.031245	.	AB=0.5;ABP=3.0103;AC=1;AF=0.5;AN=2;AO=2;CIGAR=1X;DP=4;DPB=4;DPRA=0;EPP=7.35324;EPPR=7.35324;GTI=0;LEN=1;MEANALT=1;MQM=8.5;MQMR=20;NS=1;NUMALT=1;ODDS=4.95193;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=71;RO=2;RPL=2;RPP=7.35324;RPPR=7.35324;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=2;SRP=7.35324;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	0/1:4:2,2:2:71:2:75:-0.409902,0,-2.5605
+chr2	174013275	.	G	A	43.1406	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=33;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=80;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:80:-6.11995,-0.60206,0
+chr2	187406162	.	C	A	45.806	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=36;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-6.3865,-0.60206,0
+chr2	204070561	.	C	T	48.4068	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=70;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:70:-6.64658,-0.60206,0
+chr2	220074037	.	G	A	52.9783	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=54;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-7.10373,-0.60206,0
+chr2	236691372	.	C	T	24.404	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=22.5;MQMR=0;NS=1;NUMALT=1;ODDS=5.61498;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=76;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:76:-4.24473,-0.60206,0
+chr2	240323590	.	C	T	47.4396	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=57.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=69;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:69:-6.54986,-0.60206,0
+chr20	64865	.	T	A	0.373435	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=4;MQMR=0;NS=1;NUMALT=1;ODDS=2.41089;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=69;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:69:-0.759144,-0.60206,0
+chr20	18288983	.	C	T	45.503	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=56;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=67;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:67:-6.3562,-0.60206,0
+chr20	31072847	.	A	T	12.7953	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=4;CIGAR=1X;DP=4;DPB=4;DPRA=0;EPP=11.6962;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=13.25;MQMR=0;NS=1;NUMALT=1;ODDS=2.89222;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=141;QR=0;RO=0;RPL=4;RPP=11.6962;RPPR=0;RPR=0;RUN=1;SAF=4;SAP=11.6962;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:4:0,4:0:0:4:141:-4.86843,-1.20412,0
+chr20	43126173	.	G	A	5.29668	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=11.5;MQMR=0;NS=1;NUMALT=1;ODDS=0.868932;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-2.18355,-0.60206,0
+chr20	44400573	.	C	T	36.434	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=51;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=58;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:58:-5.44921,-0.60206,0
+chr20	47895133	.	C	T	29.1297	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=25;MQMR=0;NS=1;NUMALT=1;ODDS=6.70551;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=80;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:80:-4.71835,-0.60206,0
+chr20	48123056	.	G	A	3.48674	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=10;MQMR=0;NS=1;NUMALT=1;ODDS=0.207932;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=70;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:70:-1.89648,-0.60206,0
+chr20	49829379	.	G	A	0.159691	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=2;MQMR=0;NS=1;NUMALT=1;ODDS=3.28525;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=62;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:62:-0.379413,-0.60206,0
+chr20	50273373	.	C	T	53.1369	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-7.11959,-0.60206,0
+chr21	7916630	.	C	T	0.0582719	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=3;CIGAR=1X;DP=3;DPB=3;DPRA=0;EPP=9.52472;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=3;MQMR=0;NS=1;NUMALT=1;ODDS=4.30463;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=115;QR=0;RO=0;RPL=0;RPP=9.52472;RPPR=0;RPR=3;RUN=1;SAF=0;SAP=9.52472;SAR=3;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:3:0,3:0:0:3:115:-0.839794,-0.90309,0
+chr21	7949567	.	G	A	0.373976	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=4;MQMR=0;NS=1;NUMALT=1;ODDS=2.40938;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-0.759801,-0.60206,0
+chr21	36785419	.	G	A	55.0226	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=3;CIGAR=1X;DP=3;DPB=3;DPRA=0;EPP=9.52472;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=8.76405;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=88;QR=0;RO=0;RPL=0;RPP=9.52472;RPPR=0;RPR=3;RUN=1;SAF=0;SAP=9.52472;SAR=3;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:3:0,3:0:0:3:88:-8.21146,-0.90309,0
+chr21	44556378	.	A	T	16.0238	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=18;MQMR=0;NS=1;NUMALT=1;ODDS=3.66369;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=67;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:67:-3.3973,-0.60206,0
+chr22	11067232	.	C	T	39.5673	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=32;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-5.76259,-0.60206,0
+chr22	19800141	.	G	A	52.8282	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=51;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-7.08872,-0.60206,0
+chr22	39709112	.	C	T	54.4291	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=3.0103;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=70;QR=0;RO=0;RPL=1;RPP=3.0103;RPPR=0;RPR=1;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:70:-6.64675,-0.60206,0
+chr22_KI270736v1_random	53306	.	G	A	76.9648	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=3;CIGAR=1X;DP=3;DPB=3;DPRA=0;EPP=9.52472;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=42.6667;MQMR=0;NS=1;NUMALT=1;ODDS=8.76405;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=116;QR=0;RO=0;RPL=3;RPP=9.52472;RPPR=0;RPR=0;RUN=1;SAF=3;SAP=9.52472;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:3:0,3:0:0:3:116:-10.4057,-0.90309,0
+chr3	47524402	.	T	A	1.2507	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=7;MQMR=0;NS=1;NUMALT=1;ODDS=1.09803;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-1.32931,-0.60206,0
+chr3	109234092	.	C	T	44.5271	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=52;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=66;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:66:-6.2586,-0.60206,0
+chr3	125972315	.	G	A	28.4972	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=25;MQMR=0;NS=1;NUMALT=1;ODDS=6.55969;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=70;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:70:-4.65502,-0.60206,0
+chr3	173348345	.	T	G	2.26452	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=3;DPB=3;DPRA=0;EPP=7.35324;EPPR=5.18177;GTI=0;LEN=1;MEANALT=1;MQM=6.5;MQMR=24;NS=1;NUMALT=1;ODDS=0.379357;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=5;RO=1;RPL=0;RPP=7.35324;RPPR=5.18177;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=1;SRP=5.18177;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:3:1,2:1:5:2:78:-0.738337,-0.406812,0
+chr3	173348377	.	T	G	1.03019	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=6.5;MQMR=0;NS=1;NUMALT=1;ODDS=1.31849;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=67;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:67:-1.23357,-0.60206,0
+chr3	196431929	.	C	T	43.6435	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=56.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=65;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:65:-6.17024,-0.60206,0
+chr4	9504728	.	C	T	32.2523	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=58;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=53;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:53:-5.03088,-0.60206,0
+chr4	26294427	.	C	T	51.252	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=73;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:73:-6.9311,-0.60206,0
+chr4	38850958	.	G	A	4.0514	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=10.5;MQMR=0;NS=1;NUMALT=1;ODDS=0.43232;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-1.99393,-0.60206,0
+chr4	40798092	.	G	A	44.5984	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=66;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:66:-6.26573,-0.60206,0
+chr4	49657617	.	A	G	0.231291	.	AB=0.666667;ABP=3.73412;AC=1;AF=0.5;AN=2;AO=2;CIGAR=1X;DP=3;DPB=3;DPRA=0;EPP=7.35324;EPPR=5.18177;GTI=0;LEN=1;MEANALT=1;MQM=11;MQMR=26;NS=1;NUMALT=1;ODDS=2.92244;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=30;RO=1;RPL=0;RPP=7.35324;RPPR=5.18177;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=1;SRP=5.18177;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	0/1:3:1,2:1:30:2:78:-1.18557,0,-1.55168
+chr4	49657870	.	C	G	0.847325	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=6;MQMR=0;NS=1;NUMALT=1;ODDS=1.53571;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=69;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:69:-1.13923,-0.60206,0
+chr4	55418868	.	G	A	5.96161	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=12;MQMR=0;NS=1;NUMALT=1;ODDS=1.07984;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=70;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:70:-2.27515,-0.60206,0
+chr4	102976770	.	C	T	52.1483	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=56.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=74;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:74:-7.02074,-0.60206,0
+chr4	117153792	.	G	T	46.9771	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=45.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=70;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:70:-6.50361,-0.60206,0
+chr4	125771797	.	C	T	6.6822	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=12.5;MQMR=0;NS=1;NUMALT=1;ODDS=1.29635;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=70;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:70:-2.36918,-0.60206,0
+chr4	146639979	.	G	A	55.3056	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=50.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-7.33647,-0.60206,0
+chr4	151080653	.	A	C	9.9334	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=14.5;MQMR=0;NS=1;NUMALT=1;ODDS=2.17955;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=80;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:80:-2.75274,-0.60206,0
+chr5	183559	.	G	A	2.99968	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=9.5;MQMR=0;NS=1;NUMALT=1;ODDS=0.00552163;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=76;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:76:-1.80378,-0.60206,0
+chr5	1933943	.	G	A	44.4781	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=50;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=66;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:66:-6.25371,-0.60206,0
+chr5	77987132	.	C	A	0.303051	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=3.5;MQMR=0;NS=1;NUMALT=1;ODDS=2.62794;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=79;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:79:-0.66488,-0.60206,0
+chr5	119210139	.	C	T	18.8863	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=19.5;MQMR=0;NS=1;NUMALT=1;ODDS=4.3351;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=73;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:73:-3.68889,-0.60206,0
+chr5	132916952	.	C	T	1.03138	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=6.5;MQMR=0;NS=1;NUMALT=1;ODDS=1.31719;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=72;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:72:-1.23413,-0.60206,0
+chr5	157672239	.	G	A	54.0687	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=76;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:76:-7.21278,-0.60206,0
+chr6	3651357	.	C	T	40.3159	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=32;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=74;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:74:-5.83746,-0.60206,0
+chr6	70376051	.	C	T	55.9739	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-7.4033,-0.60206,0
+chr6	76494700	.	C	T	46.5198	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=68;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:68:-6.45788,-0.60206,0
+chr6	93637338	.	C	T	14.4521	.	AB=0.666667;ABP=3.73412;AC=1;AF=0.5;AN=2;AO=2;CIGAR=1X;DP=3;DPB=3;DPRA=0;EPP=7.35324;EPPR=5.18177;GTI=0;LEN=1;MEANALT=1;MQM=19;MQMR=13;NS=1;NUMALT=1;ODDS=3.2901;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=77;QR=24;RO=1;RPL=2;RPP=7.35324;RPPR=5.18177;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=1;SRP=5.18177;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	0/1:3:1,2:1:24:2:77:-2.69728,0,-0.365319
+chr6	117069046	.	A	G	14.2291	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=17;MQMR=0;NS=1;NUMALT=1;ODDS=3.23724;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=71;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:71:-3.21209,-0.60206,0
+chr7	22665203	.	G	A	49.3568	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=71;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:71:-6.74158,-0.60206,0
+chr7	73762526	.	G	A	55.0187	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=77;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:77:-7.30778,-0.60206,0
+chr7	75877844	.	G	T	0.0248975	.	AB=0.666667;ABP=3.73412;AC=1;AF=0.5;AN=2;AO=2;CIGAR=1X;DP=3;DPB=3;DPRA=0;EPP=7.35324;EPPR=5.18177;GTI=0;LEN=1;MEANALT=1;MQM=7;MQMR=27;NS=1;NUMALT=1;ODDS=5.18626;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=40;RO=1;RPL=2;RPP=7.35324;RPPR=5.18177;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=1;SRP=5.18177;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	0/1:3:1,2:1:40:2:78:-0.42644,0,-1.77571
+chr7	83500787	.	C	T	18.0185	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=19;MQMR=0;NS=1;NUMALT=1;ODDS=4.13238;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=77;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:77:-3.60085,-0.60206,0
+chr7	117817157	.	G	A	23.6275	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=22;MQMR=0;NS=1;NUMALT=1;ODDS=5.43546;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=80;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:80:-4.16677,-0.60206,0
+chr7	127651951	.	G	A	57.8377	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=80;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:80:-7.58968,-0.60206,0
+chr7	128104769	.	G	A	51.2539	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=73;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:73:-6.9313,-0.60206,0
+chr7	140478357	.	G	A	45.5695	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=67;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:67:-6.36284,-0.60206,0
+chr8	10424490	.	C	T	55.0293	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=77;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:77:-7.30883,-0.60206,0
+chr8	54023149	.	G	A	0.128926	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=1.5;MQMR=0;NS=1;NUMALT=1;ODDS=3.50281;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=73;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:73:-0.284928,-0.60206,0
+chr8	69663238	.	G	A	80.0553	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=3;CIGAR=1X;DP=3;DPB=3;DPRA=0;EPP=9.52472;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=49.3333;MQMR=0;NS=1;NUMALT=1;ODDS=8.76405;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=116;QR=0;RO=0;RPL=3;RPP=9.52472;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=9.52472;SAR=3;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:3:0,3:0:0:3:116:-10.7147,-0.90309,0
+chr8	77490286	.	G	A	4.05102	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=10.5;MQMR=0;NS=1;NUMALT=1;ODDS=0.432176;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:78:-1.99387,-0.60206,0
+chr8	93009431	.	G	A	18.8405	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=19.5;MQMR=0;NS=1;NUMALT=1;ODDS=4.32442;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=80;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:80:-3.68425,-0.60206,0
+chr8	96161790	.	G	A	31.3369	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.21423;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=52;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:52:-4.93928,-0.60206,0
+chr8	98139047	.	C	T	3.49025	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=10;MQMR=0;NS=1;NUMALT=1;ODDS=0.209395;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=71;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:71:-1.89712,-0.60206,0
+chr8	144422770	.	G	A	43.6706	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=65;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:65:-6.17295,-0.60206,0
+chr8	144505053	.	C	T	51.2179	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=73;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:73:-6.92769,-0.60206,0
+chr9	113481868	.	G	A	55.5144	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=45;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=80;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:80:-7.35735,-0.60206,0
+chr9	123365769	.	G	A	45.4371	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=51;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=67;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:67:-6.34961,-0.60206,0
+chr9	125425596	.	C	T	51.2417	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=73;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:73:-6.93007,-0.60206,0
+chr9	134499662	.	C	T	82.3518	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=3;CIGAR=1X;DP=3;DPB=3;DPRA=0;EPP=9.52472;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=53.3333;MQMR=0;NS=1;NUMALT=1;ODDS=8.76405;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=118;QR=0;RO=0;RPL=3;RPP=9.52472;RPPR=0;RPR=0;RUN=1;SAF=3;SAP=9.52472;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:3:0,3:0:0:3:118:-10.9444,-0.90309,0
+chr9	135033431	.	C	T	35.1361	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59.5;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=56;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:56:-5.31938,-0.60206,0
+chr9	135547280	.	G	A	53.1419	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=75;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:75:-7.1201,-0.60206,0
+chrM	13889	.	G	A	40.8279	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=59;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=62;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:62:-5.88866,-0.60206,0
+chrUn_GL000216v2	30675	.	G	C	4.0123	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=10.5;MQMR=0;NS=1;NUMALT=1;ODDS=0.417433;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=64;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:64:-1.98747,-0.60206,0
+chrUn_KI270438v1	82112	.	C	T	38.9	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=60;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=60;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:60:-5.69585,-0.60206,0
+chrUn_KI270438v1	85612	.	C	G	0.563743	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=5;MQMR=0;NS=1;NUMALT=1;ODDS=1.97673;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=58;QR=0;RO=0;RPL=0;RPP=7.35324;RPPR=0;RPR=2;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:58:-0.947697,-0.60206,0
+chrX	153932272	.	G	A	79.1933	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=3;CIGAR=1X;DP=3;DPB=3;DPRA=0;EPP=9.52472;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=58.6667;MQMR=0;NS=1;NUMALT=1;ODDS=8.76405;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=114;QR=0;RO=0;RPL=0;RPP=9.52472;RPPR=0;RPR=3;RUN=1;SAF=0;SAP=9.52472;SAR=3;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:3:0,3:0:0:3:114:-10.6285,-0.90309,0
+chrX	153932303	.	G	A	39.8257	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=58;MQMR=0;NS=1;NUMALT=1;ODDS=7.37776;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=61;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:61:-5.78843,-0.60206,0
+chrY	10868853	.	T	C	0.0721096	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=3;CIGAR=1X;DP=3;DPB=3;DPRA=0;EPP=9.52472;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=3.33333;MQMR=0;NS=1;NUMALT=1;ODDS=4.08996;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=110;QR=0;RO=0;RPL=0;RPP=9.52472;RPPR=0;RPR=3;RUN=1;SAF=0;SAP=9.52472;SAR=3;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:3:0,3:0:0:3:110:-0.933022,-0.90309,0
+chrY	10886521	.	A	C	2.54353	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=4;CIGAR=1X;DP=4;DPB=4;DPRA=0;EPP=11.6962;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=9.5;MQMR=0;NS=1;NUMALT=1;ODDS=0.22795;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=160;QR=0;RO=0;RPL=0;RPP=11.6962;RPPR=0;RPR=4;RUN=1;SAF=0;SAP=11.6962;SAR=4;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:4:0,4:0:0:4:160:-3.51336,-1.20412,0
+chrY	10934227	.	C	A	20.7128	.	AB=0.75;ABP=5.18177;AC=1;AF=0.5;AN=2;AO=3;CIGAR=1X;DP=4;DPB=4;DPRA=0;EPP=9.52472;EPPR=5.18177;GTI=0;LEN=1;MEANALT=1;MQM=22.6667;MQMR=24;NS=1;NUMALT=1;ODDS=4.75633;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=104;QR=34;RO=1;RPL=0;RPP=9.52472;RPPR=5.18177;RPR=3;RUN=1;SAF=0;SAP=9.52472;SAR=3;SRF=0;SRP=5.18177;SRR=1;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	0/1:4:1,3:1:34:3:104:-5.02647,0,-1.15464
+chrY	11314621	.	T	C	15.856	.	AB=0;ABP=0;AC=2;AF=1;AN=2;AO=2;CIGAR=1X;DP=2;DPB=2;DPRA=0;EPP=7.35324;EPPR=0;GTI=0;LEN=1;MEANALT=1;MQM=18;MQMR=0;NS=1;NUMALT=1;ODDS=3.62405;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=73;QR=0;RO=0;RPL=2;RPP=7.35324;RPPR=0;RPR=0;RUN=1;SAF=0;SAP=7.35324;SAR=2;SRF=0;SRP=0;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	1/1:2:0,2:0:0:2:73:-3.38008,-0.60206,0
+chrY	11567495	.	T	C	4.07004	.	AB=0.5;ABP=3.0103;AC=1;AF=0.5;AN=2;AO=2;CIGAR=1X;DP=4;DPB=4;DPRA=0;EPP=7.35324;EPPR=7.35324;GTI=0;LEN=1;MEANALT=1;MQM=10.5;MQMR=9.5;NS=1;NUMALT=1;ODDS=0.43978;PAIRED=0;PAIREDR=0;PAO=0;PQA=0;PQR=0;PRO=0;QA=78;QR=78;RO=2;RPL=2;RPP=7.35324;RPPR=7.35324;RPR=0;RUN=1;SAF=2;SAP=7.35324;SAR=0;SRF=2;SRP=7.35324;SRR=0;TYPE=snp	GT:DP:AD:RO:QR:AO:QA:GL	0/1:4:2,2:2:78:2:78:-0.789811,0,-0.598817
