@@ -44,7 +44,8 @@ We also used ANNOVAR for annotating the variants.
 ## Proposed Block Diagram
 
 
-![pipeline](https://user-images.githubusercontent.com/28592095/56661195-96cb6700-66e4-11e9-845d-829ded473fff.png)
+![pipeline_updated](https://user-images.githubusercontent.com/28592095/60767882-70bd3c80-a101-11e9-9e94-22ae6df91a9c.png)
+
 
 
 
